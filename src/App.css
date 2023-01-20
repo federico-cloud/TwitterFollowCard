@@ -39,7 +39,7 @@
     font-weight: bold;
     height: 2rem;
     transition: .3s ease background-color;
-    width: 6rem;
+    width: 7rem;
 }
 
 .tw-followCard-button:hover {
@@ -57,7 +57,7 @@
     color: #fff;
     font-size: .5rem;
     height: 2rem;
-    width: 6rem;
+    width: 7rem;
 }
 
 .is-following:hover {
@@ -68,11 +68,11 @@
     transition: .5s ease all;
 }
 
-.tw-followCard-button .is-following:hover .tw-followCard-text {
+.is-following:hover .tw-followCard-text {
     display: none;
 }
 
-.tw-followCard-button .is-following:hover .tw-followCard-stopFollow {
+.is-following:hover .tw-followCard-stopFollow {
     display: block;
 }
 
